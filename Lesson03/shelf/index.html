@@ -22,8 +22,10 @@ $(document).ready(function() {
 		width: $carousel.width(),
 		fit: true,
 		speed: 400,
-		//pause: true
-	}).cycle('pause');
+
+		pause: true
+	});
+
 	// Set up our buttons.
 	$('.nav-arrow-left').click(function(){
 		$carousel.cycle('prev');
