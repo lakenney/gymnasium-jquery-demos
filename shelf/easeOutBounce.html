@@ -1,0 +1,49 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>jQuery :: Lesson 2 Product Shelf</title>
+
+		<!-- Tip: Start src & href links with no slash for relative paths. -->
+		<script src="../js/jquery.1.9.1.js"></script>
+		<script src="script/jquery.easing.min.js"></script>
+		<link rel="stylesheet" href="css/style.css"/>
+
+		<script type="text/javascript">
+
+			$(document).ready(function() {
+
+				$( "#clickme" ).click(function() {
+				  $( "#book" ).animate({
+				    width: "toggle",
+				    height: "toggle"
+				  }, {
+				    duration: 5000,
+				    specialEasing: {
+				      width: "linear",
+				      height: "easeOutBounce"
+				    },
+				    complete: function() {
+				      $( this ).after( "<div>Animation complete.</div>" );
+				    }
+				  });
+				});		
+
+			});
+
+		</script>
+			
+	</head>
+
+	<body>
+		<h1>Simple Animation</h1>
+
+		<div id="clickme">
+		  Click here
+		</div>
+		<img id="book" src="img/book.png" alt="" width="100" height="123"
+		  style="position: relative; left: 10px;">
+
+		<div id="footer">&copy;2013 Gymnasium Posters Inc.</div>
+	</body>
+</html>
