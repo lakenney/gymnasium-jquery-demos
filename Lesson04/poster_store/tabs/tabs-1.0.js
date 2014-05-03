@@ -1,5 +1,5 @@
 
-$(document.head).append('<link rel="stylesheet" href="tabs-1.0.css"/>');
+$(document.head).append('<link rel="stylesheet" href="tabs/tabs-1.0.css"/>');
 
 $(document).ready(function(){
 	var $tabs = $('#categories > h3'),
