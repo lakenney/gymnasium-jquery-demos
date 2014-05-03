@@ -6,40 +6,9 @@
 		
 		<link rel="stylesheet" href="css/style.css"/>
 
-	<script src="../../js/jquery.1.9.1.js"></script>
+	<script src="../js/jquery.1.9.1.js"></script>
+	<script src="tabs/tabs-1.0.js"></script>
 
-	<script>
-	$(document).ready(function(){
-		var $tabs = $('#categories > h3'),
-			$contents = $('#categories > ul');
-		$($tabs[0]).click(function() {
-			$tabs.removeClass('active');
-			$($tabs[0]).addClass('active');
-			$contents.removeClass('active');
-			$($contents[0]).addClass('active');
-		});
-		$($tabs[1]).click(function() {
-			$tabs.removeClass('active');
-			$($tabs[1]).addClass('active');
-			$contents.removeClass('active');
-			$($contents[1]).addClass('active');
-		});
-		$($tabs[2]).click(function() {
-			$tabs.removeClass('active');
-			$($tabs[2]).addClass('active');
-			$contents.removeClass('active');
-			$($contents[2]).addClass('active');
-		});
-
-		// Set initial state
-		$tabs.first().addClass('active');
-		$tabs.last().addClass('last');
-		$contents.first().addClass('active');
-		$contents.first().addClass('active');
-
-	});
-	</script>
-    		
 	</head>
 
 	<body lang="en">
