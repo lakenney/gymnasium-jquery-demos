@@ -7,32 +7,35 @@
 		<link rel="stylesheet" href="css/style.css"/>
 
 	<script src="../../js/jquery.1.9.1.js"></script>
-	
+
 	<script>
 	$(document).ready(function(){
 		var $tabs = $('#categories > h3'),
 			$contents = $('#categories > ul');
 		$($tabs[0]).click(function() {
-			$tabs.removeCass('active');
+			$tabs.removeClass('active');
 			$($tabs[0]).addClass('active');
 			$contents.removeClass('active');
 			$($contents[0]).addClass('active');
 		});
 		$($tabs[1]).click(function() {
-			$tabs.removeCass('active');
+			$tabs.removeClass('active');
 			$($tabs[1]).addClass('active');
 			$contents.removeClass('active');
 			$($contents[1]).addClass('active');
 		});
 		$($tabs[2]).click(function() {
-			$tabs.removeCass('active');
+			$tabs.removeClass('active');
 			$($tabs[2]).addClass('active');
 			$contents.removeClass('active');
 			$($contents[2]).addClass('active');
 		});
+
 		// Set initial state
-		$tabs[0].first().addClass('active');
-		$contents[0].first().addClass('active');
+		$tabs.first().addClass('active');
+		$tabs.last().addClass('last');
+		$contents.first().addClass('active');
+		$contents.first().addClass('active');
 
 	});
 	</script>
