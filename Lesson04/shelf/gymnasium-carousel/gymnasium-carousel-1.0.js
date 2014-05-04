@@ -5,10 +5,11 @@ Don't forget to document your plugin! Include any assumptions that your plugin i
 */
 
 // Don't forget to add your own stylesheet.
+$(document.head).append('<link rel="stylesheet" href="gymnasium-carousel/gymnasium-carousel-1.0.css"/>');
 
-$(document).ready(function() {
+$.fn.carouselify = function() {
 	// Set up our carousel.
-	var $carousel = $('.carousel-wrapper');
+	var $carousel = this.find('.carousel-wrapper');
 	$carousel.cycle({
 		fx: 'scrollHorz',
 		speed: 400,

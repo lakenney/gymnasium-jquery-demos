@@ -32,6 +32,4 @@ $.fn.makeTabsFor = function(contentSelector) {
 	$tabs.first().addClass('active');
 	$tabs.last().addClass('last');
 	$contents.first().addClass('active');
-	$contents.first().addClass('active');
-
 };
