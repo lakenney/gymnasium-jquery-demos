@@ -35,4 +35,4 @@ $.fn.carouselify = function() {
 		function() { $(this).children('.meta').stop().animate({ bottom: -22 }, 100) }
 	)
 
-});
+};

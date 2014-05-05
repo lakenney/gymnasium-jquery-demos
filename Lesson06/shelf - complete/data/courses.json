@@ -1,0 +1,211 @@
+{
+    "3": {
+        "course_area": "CS",
+        "course_desc": "Algorithmic, game-theoretic and logical foundations of multi-agent systems, including distributed optimization and problem solving, non-cooperative game theory, learning and teaching, communication, social choice, mechanism design, auctions, negotiation, coalitional game theory, logics of knowledge and belief, collaborative plans and social systems.",
+        "course_title": "Multi-Agent Systems",
+        "course_name": "CS 285",
+        "terms": {
+            "2011_fall": {
+                "instructors": [
+                    "David Parkes"
+                ],
+                "meet_times": []
+            },
+            "2012_fall": {
+                "instructors": [
+                    "David Parkes"
+                ],
+                "meet_times": []
+            },
+            "2013_fall": {
+                "instructors": [
+                    "David Parkes"
+                ],
+                "meet_times": [
+                    {
+                        "weekDay": "Th",
+                        "startTime": "10:00:00",
+                        "endTime": "11:30:00",
+                        "building": "Maxwell Dworkin",
+                        "room": "123"
+                    },
+                    {
+                        "weekDay": "Tu",
+                        "startTime": "10:00:00",
+                        "endTime": "11:30:00",
+                        "building": "Maxwell Dworkin",
+                        "room": "123"
+                    }
+                ]
+            },
+            "2014_fall": {
+                "instructors": [
+                    "David Parkes"
+                ],
+                "meet_times": [
+                    {
+                        "weekDay": "Th",
+                        "startTime": "10:00:00",
+                        "endTime": "11:30:00",
+                        "building": "unknown",
+                        "room": ""
+                    },
+                    {
+                        "weekDay": "Tu",
+                        "startTime": "10:00:00",
+                        "endTime": "11:30:00",
+                        "building": "unknown",
+                        "room": ""
+                    }
+                ]
+            }
+        }
+    },
+    "6": {
+        "course_area": "CS",
+        "course_desc": "Interplay between computation and economics. Topics in electronic commerce, computational social choice, computational mechanism design, peer production, prediction markets and reputation systems. Readings in AI, theoretical CS, multi-agent systems, economic theory, and operations research. The topic for Spring 2014 is Matching and Market Design.",
+        "course_title": "Topics at the Interface between Computer  Science and Economics",
+        "course_name": "CS 286r",
+        "terms": {
+            "2011_fall": {
+                "instructors": [
+                    "Yiling Chen"
+                ],
+                "meet_times": [
+                    {
+                        "weekDay": "M",
+                        "startTime": "13:00:00",
+                        "endTime": "14:30:00",
+                        "building": "Maxwell Dworkin",
+                        "room": "319"
+                    },
+                    {
+                        "weekDay": "W",
+                        "startTime": "13:00:00",
+                        "endTime": "14:30:00",
+                        "building": "Maxwell Dworkin",
+                        "room": "319"
+                    }
+                ]
+            },
+            "2012_fall": {
+                "instructors": [
+                    "Yiling Chen"
+                ],
+                "meet_times": [
+                    {
+                        "weekDay": "M",
+                        "startTime": "13:00:00",
+                        "endTime": "14:30:00",
+                        "building": "Maxwell Dworkin",
+                        "room": "319"
+                    },
+                    {
+                        "weekDay": "W",
+                        "startTime": "13:00:00",
+                        "endTime": "14:30:00",
+                        "building": "Maxwell Dworkin",
+                        "room": "319"
+                    }
+                ]
+            },
+            "2014_spring": {
+                "instructors": [
+                    "Nicole Immorlica"
+                ],
+                "meet_times": [
+                    {
+                        "weekDay": "F",
+                        "startTime": "09:00:00",
+                        "endTime": "12:00:00",
+                        "building": "unknown",
+                        "room": ""
+                    }
+                ]
+            },
+            "2015_spring": {
+                "instructors": [],
+                "meet_times": [
+                    {
+                        "weekDay": "F",
+                        "startTime": "09:00:00",
+                        "endTime": "12:00:00",
+                        "building": "unknown",
+                        "room": ""
+                    }
+                ]
+            }
+        }
+    },
+    "8": {
+        "course_area": "CS",
+        "course_desc": "Seminar course exploring research directions in artificial intelligence (AI), typically combining two or more of such areas as multi-agent systems, natural-language processing, machine learning, reasoning under uncertainty, representation systems.  Topic for Spring 2014: Models and algorithms for collaboration and coordination of multi-agent \"mixed networks\" comprising people and computer-system agents. ",
+        "course_title": "Advanced Topics in Artificial Intelligence",
+        "course_name": "CS 280r",
+        "terms": {
+            "2013_spring": {
+                "instructors": [
+                    "Barbara Grosz"
+                ],
+                "meet_times": [
+                    {
+                        "weekDay": "Th",
+                        "startTime": "14:30:00",
+                        "endTime": "16:00:00",
+                        "building": "Maxwell Dworkin",
+                        "room": "221"
+                    },
+                    {
+                        "weekDay": "Tu",
+                        "startTime": "14:30:00",
+                        "endTime": "16:00:00",
+                        "building": "Maxwell Dworkin",
+                        "room": "221"
+                    }
+                ]
+            },
+            "2014_spring": {
+                "instructors": [
+                    "Barbara Grosz"
+                ],
+                "meet_times": [
+                    {
+                        "weekDay": "Th",
+                        "startTime": "13:00:00",
+                        "endTime": "14:30:00",
+                        "building": "Maxwell Dworkin",
+                        "room": "223"
+                    },
+                    {
+                        "weekDay": "Tu",
+                        "startTime": "13:00:00",
+                        "endTime": "14:30:00",
+                        "building": "Maxwell Dworkin",
+                        "room": "223"
+                    }
+                ]
+            },
+            "2015_spring": {
+                "instructors": [
+                    "Barbara Grosz"
+                ],
+                "meet_times": [
+                    {
+                        "weekDay": "Th",
+                        "startTime": "13:00:00",
+                        "endTime": "14:30:00",
+                        "building": "unknown",
+                        "room": ""
+                    },
+                    {
+                        "weekDay": "Tu",
+                        "startTime": "13:00:00",
+                        "endTime": "14:30:00",
+                        "building": "unknown",
+                        "room": ""
+                    }
+                ]
+            }
+        }
+    }
+}
